@@ -1,0 +1,253 @@
+html,
+.App {
+  background-color: white;
+  overflow-x: clip;
+}
+
+.footer p {
+  color: #3b3b3b;
+}
+
+.plus {
+  width: 30px;
+  height: 30px;
+  fill: #666666;
+  cursor: pointer;
+}
+.cursor {
+  cursor: pointer;
+}
+
+/* PROFILE PAGE */
+
+#root a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profileTitle {
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+#headerCard {
+  text-align: left;
+  margin: 3.5rem 0.5rem 0.5rem;
+}
+
+#profilePicture {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid white;
+  top: 7.5rem;
+  left: 2rem;
+  width: 130px;
+  height: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  #headerCard {
+    text-align: left;
+    margin: 3.5rem 0.5rem 0.5rem;
+  }
+
+  #profilePicture {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    top: 5.5rem;
+    left: 2rem;
+    width: 160px;
+    height: 160px;
+  }
+}
+
+.mainBtn {
+  background-color: #0966c2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 4px 15px;
+  margin-right: 10px;
+}
+
+.mainBtn:hover {
+  background-color: #004182;
+}
+
+.secondaryBtn {
+  background-color: white;
+  border: none;
+  color: #1274d6;
+  box-shadow: inset 0px 0px 0px 1px #1274d6;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 4px 15px;
+  margin-right: 10px;
+}
+
+.secondaryBtn:hover {
+  background-color: #e2f0fd;
+  box-shadow: inset 0px 0px 0px 2px #0966c2;
+}
+
+.tertiaryBtn {
+  background-color: white;
+  border: none;
+  color: #666666;
+  box-shadow: inset 0px 0px 0px 1px #666666;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 4px 15px;
+  margin-right: 10px;
+}
+
+.tertiaryBtn:hover {
+  background-color: #ebebeb;
+  box-shadow: inset 0px 0px 0px 2px #191919;
+}
+
+.timeAndLocation {
+  color: #666666;
+  font-size: 0.9rem;
+  margin-top: -0.2rem;
+}
+
+.editIcon {
+  position: absolute;
+  right: 1rem;
+  top: 13rem;
+  padding: 8px;
+}
+
+.editIcon:hover {
+  background-color: #ebebeb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#otherCards {
+  text-align: left;
+  padding: 1.5rem;
+}
+
+#otherCards span {
+  font-size: 0.9rem;
+}
+#otherCards p {
+  margin-bottom: 0rem;
+}
+
+.subtitles {
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  color: #666666;
+}
+
+.sectionContent {
+  margin-top: -1rem;
+}
+
+.sectionFooter {
+  text-align: center;
+  border-top: 1px solid #d2d2d2;
+  padding: 10px;
+  color: #666666;
+  font-weight: bold;
+}
+
+.sectionFooter:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.sectionFooterPosts {
+  text-align: center;
+  padding-block: 10px;
+  color: #666666;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sectionFooterPosts:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.grayHover:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.followBtn {
+  padding: 5px 10px;
+}
+
+.followBtn:hover {
+  background-color: #ebf3fd;
+  border-radius: 10px;
+}
+
+/* sezione post .parte sinistra  footer home  */
+.postImage {
+  width: 50px;
+  height: 50px;
+}
+
+.font-home-destra {
+  font-size: 0.7rem;
+}
+
+.commenti-home:hover {
+  background-color: lightgrey;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.altri-post {
+  color: #0966c2;
+  border: solid 2px #0966c2;
+  background-color: #f3f2ee;
+  padding: 5px;
+}
+.asideImg {
+  width: 50px;
+  height: 50px;
+}
+span {
+  font-size: 0.9rem;
+  font-weight: light;
+}
+
+.profileContainer {
+  border: 1px solid rgb(206, 199, 199);
+  /* bg aggiunto da Mariline */
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.bgProfile {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#miniProfile {
+  width: 100px;
+  height: 100px;
+}
+
+/* colore backgroundglobale in root */
+#root {
+  background-color: #f3f2ee;
+}
+
+#sfondobianco {
+  background-color: white;
+}
+/* navbarcss */

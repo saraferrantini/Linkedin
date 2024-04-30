@@ -1,0 +1,97 @@
+/* pagina login */
+.login-card {
+  width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #005f91;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.login-form {
+  margin-right: 150px;
+  margin-left: 258px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image {
+  width: 80%;
+  height: auto;
+}
+
+/* Navbar*/
+.Logo_navbar_fixed {
+  margin: 0;
+  padding: 0;
+}
+.container_logo_navbar_fixed {
+  /* width: 5vw;
+  margin: 0; */
+}
+.image_dropdown_navbar {
+  border-radius: 50%;
+}
+.research_icon_navbar {
+  padding: 10px;
+  pointer-events: none;
+}
+.research_input_form_navbar {
+  background-color: #edf3f8;
+}
+.icons_navbar {
+  text-align: center;
+  cursor: pointer;
+}
+.icons_navbar:hover {
+  color: black;
+}
+#collapsible-nav-dropdown {
+  padding: 0px !important;
+}
